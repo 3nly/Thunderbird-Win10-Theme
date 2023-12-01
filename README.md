@@ -5,6 +5,7 @@ Theme and userChrome for Thunderbird, for use with **Thunderbird 102.9.1** or lo
 
 
 ## Installation
+- In about:config (Settings > General > Config Editor...) set **toolkit.legacyUserProfileCustomizations.stylesheets** to TRUE
 - Download the whole project.
 - Zip both files in the **extensions** folder into a zip archive, then change the archive extension from .zip to .xpi.
 - Drag-and-drop the .xpi into the themes tab of Thunderbird to install.
