@@ -1,0 +1,12 @@
+#status-bar {
+  background-color: rgb(244,244,244) !important;
+}
+#statusbarpanel,
+#status-bar,
+#statusTextBox,
+#offline-status {
+  color: rgb(15,15,15) !important;
+}
+:is(menupopup, panel) {
+  --panel-border-radius: 2px !important;
+}
