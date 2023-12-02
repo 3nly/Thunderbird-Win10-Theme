@@ -10,3 +10,18 @@
 :is(menupopup, panel) {
   --panel-border-radius: 2px !important;
 }
+.themeable-full[brighttext], 
+:root[lwtheme-brighttext] .themeable-full, 
+:root[lwt-tree-brighttext] .themeable-brighttext {
+  --toolbarbutton-checked-background: rgba(217, 217, 217, 0.68) !important;
+  border-color: rgba(0, 0, 0, 0.1) !important;
+}
+.toolbarbutton-1:not([disabled="true"]):is(:hover, [open="true"]) > .toolbarbutton-menubutton-button, 
+.toolbarbutton-1:not([disabled="true"]):hover > .toolbarbutton-menubutton-dropmarker, 
+.toolbarbutton-1:not([type="menu-button"], [disabled="true"], [checked="true"], [open="true"], :active):hover {
+  background-color: rgba(217, 217, 217, 0.68) !important;
+  border-color: rgba(0, 0, 0, 0.1) !important;
+}
+.toolbarbutton-1:not([type="menu-button"], [disabled="true"]):is([open="true"], [checked="true"], :hover:active) {
+  border-color: rgba(0, 0, 0, 0.1) !important;
+}
